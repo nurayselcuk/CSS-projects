@@ -1,0 +1,29 @@
+*{
+    text-align:left;
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    
+}
+
+figcaption{
+    text-align: center;
+    font-size: 15px;
+}
+.ff-sans{
+    font-family: sans-serif;
+    color: #6B6B6B;
+    font-weight: normal;
+}
+html{
+    font-size: 20px;
+    line-height: 1.4em;
+}
+article{
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+figure{
+    margin-left: 0;
+    margin-right: 0;
+}

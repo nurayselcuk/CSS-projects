@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="normalize.css">
+</head>
+<body>
+    <form action="" method="post">
+    <div class="form-item">
+        <label for="ad">İsim</label>
+        <input  type="text" name="ad" id="ad" required placeholder="Nuray Selçuk">
+    </div>
+
+    <div class="form-item">
+        <label for="tel">Telefon</label>
+        <input type="tel" name="tel" id="tel" required placeholder="+90...">
+    </div>
+
+    <div class="form-item">
+        <label for="mail">E-posta Adresi</label>
+        <input type="email" name="mail" id="mail" required placeholder="...@gmail.com">
+    </div>
+
+    <div class="form-item">
+        <label for="mesaj">Mesaj</label>
+        <textarea name="mesaj" id="mesaj" ></textarea>
+    </div>
+
+    <div class="form-item">
+        <label for="sehir">Şehir</label>
+        <select name="sehir" id="sehir">
+            <option value="istanbul">İstanbul</option>
+            <option value="ankara">Ankara</option>
+        </select>
+    </div>
+
+    <div class="form-item">
+        <p>Cinsiyetiniz</p>
+        <div class="radio-container">
+            <label for="cins" >
+                <input type="radio" name="cins" id="cins"> Kadın
+            </label>
+            <label>
+                <input type="radio" name="cins" id="cins"> Erkek
+            </label>
+        </div>
+        
+    </div>
+
+    <div class="form-item">
+        <button type="reset">Sıfırla</button>
+        <button type="submit">Gönder</button>
+    </div>
+
+
+    </form>
+    
+</body>
+</html>

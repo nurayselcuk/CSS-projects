@@ -1,0 +1,160 @@
+
+
+section{
+    padding: 1rem 18rem;
+}
+
+.baslik{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+}
+
+.baslik h2{
+    white-space: nowrap;
+}
+
+.baslik button{
+    background-color: transparent;
+    border: none;
+    color: #ff7f00;
+}
+
+.tablo{
+    display: flex;
+    column-gap: 6rem;
+}
+
+.kategori{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 16rem;
+    width: 19rem;
+    font-weight: bold;
+    color: gray;
+    font-size: 0.75rem;
+    letter-spacing: 0.5px;
+}
+
+.kategori>button{
+    background-color: transparent;
+    border: 0;
+    color: gray;
+    text-decoration: none;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    white-space: nowrap;
+    cursor: pointer;
+}
+.kategori>button::before{
+    
+    content: "";
+    height: 3rem;
+    width: 4px;
+    background-color: #ff7f00;
+    margin-right: 12px;
+    opacity: 0;
+}
+
+.kategori>button:hover{
+    background-color: #FFFAF5;
+}
+
+.kategori>button:focus{
+    background-color: #FFFAF5;
+    
+    color: #ff7f00;
+}
+.kategori>button:focus::before{
+    opacity: 1;
+}
+/* -------------- */
+.cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    margin: 0.3rem;
+    height: 22rem;
+    width: 100%;
+    border: 1px solid rgba(128, 128, 128, 0.301);
+    border-radius: 1rem;
+    padding: 0.5rem;
+    position: relative;
+}
+
+.card img{
+    width: 100%;
+    
+}
+
+.card a{
+    text-decoration: none;
+    color: black;
+    font-size: small;
+    line-height: 1rem;
+}
+.card a:hover{
+   color: #ff7f00;
+}
+
+.card .sale{
+    width: 30%;
+    height: 15%;
+    background-color: #FBE24C;
+    border-radius: 100%;
+    font-size: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    top: 10px;
+    left: 10px;
+    position: absolute;
+}
+
+.fav{
+    font-size: 1rem;
+    color: rgba(128, 128, 128, 0.589);
+    border: none;
+    background-color: transparent;
+    top: 6px;
+    right: 6px;
+    position: absolute;
+}
+.fav:focus{
+    color: #ff7f00;
+    
+}
+
+.ekle{
+    width: 1.5rem;
+    height: auto;
+    background-color: #ff7f00;
+    color: azure;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 5px;
+    bottom: 10px;
+    right: 10px;
+    position: absolute;
+}
+
+.fiyat{
+    display: inline-block;
+    padding: 0.6rem;
+    background-color: #FBE24C;
+    border-radius: 50px;
+    border-bottom-left-radius: 0;
+    font-weight: 600;
+    font-size: 1rem;
+    bottom: 3rem;
+    left: 10px;
+    position: absolute;
+}

@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.cards {
+  display: flex;
+  padding: 8rem 11rem;
+}
+.card1 {
+  width: 32rem;
+  height: 32rem;
+  border: 1px solid rgba(128, 128, 128, 0.301);
+  border-radius: 10px;
+}
+
+.card1 > img {
+  width: 100%;
+}
+
+.card2 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
+}
+
+.box {
+  border: 1px solid rgba(128, 128, 128, 0.301);
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.box1 {
+  height: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.box1>a{
+    text-decoration: none;
+    color: #2E62EE;
+}
+.box1>a:hover{
+    text-decoration: none;
+    color: #FF7F00;
+}
+.box1>span{
+    color: #FF7F00;
+}
+/* ------- */
+
+.box2{
+    border-radius: 0;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.box2>span, .box3{
+    font-weight: normal;
+    font-size: small;
+    color: #8B8287
+}
+
+.buttons>button:first-child{
+    background-color: #FF7F00;
+    color: azure;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+.buttons>button:last-child{
+    background-color: transparent;
+    color: rgba(128, 128, 128, 0.466);
+    border: 1px solid rgba(128, 128, 128, 0.575);
+    border-radius: 5px;
+    padding: 6px;
+    font-size: medium;
+    margin-left: 5px;
+}
+
+.bx{
+    margin-top: 10px;
+}
+
+.radio{
+  accent-color: #FF7F00;
+}
+/* -------- */
+.box3{
+    height: 10%;
+    display: flex;
+    align-items: center;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.dot{
+    width: 0.4rem;
+    height: 0.4rem;
+    border-radius: 50%;
+    background-color: #FF7F00;
+    margin-right: 0.25rem;
+}
