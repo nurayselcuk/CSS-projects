@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+}
+.container {
+  display: flex;
+  width: 710px;
+  height: 324px;
+  padding: 30px 0px;
+  border-top: solid 1px #e6e7ec;
+  border-bottom: solid 1px #e6e7ec;
+}
+.box {
+  padding: 0 15px;
+}
+.box1 {
+  padding-left: 0;
+}
+img {
+  width: 155px;
+  height: auto;
+}
+.imgg {
+  position: relative;
+}
+.number {
+  text-align: center;
+  width: 2rem;
+  height: 3rem;
+  font-size: 2em;
+  font-weight: 600;
+  border-radius: 10px;
+  padding: 7px;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  color: #ffffff;
+  background-color: #444a54;
+}
+.baslik {
+  display: inline; /*dogru mu*/
+}
+.baslik a:first-child {
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  font-weight: 600;
+}
+.baslik a:first-child:hover {
+  color: #398ece;
+}
+.text-right a {
+  text-decoration: none;
+  color: #398ece;
+  font-weight: 600;
+}
+.text-right a:hover {
+  color: black;
+}
+.text-right {
+  text-align: right;
+  white-space: nowrap;
+}
+.box > p {
+  position: relative;
+  top: 1em;
+}
+td {
+  height: 2em;
+  border-bottom: solid 1px #e6e7ec;
+  width: 100%;
+  font-weight: 400;
+}

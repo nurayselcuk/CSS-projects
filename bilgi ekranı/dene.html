@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    
+</head>
+<body>
+    <form action="gönderilecek yer" method="POST">
+        <div class="form-row">
+            <label for="adi">İsim</label><br>
+            <input name="adi" id="adi" type="text" required placeholder="Nuray Selçuk">
+
+        </div>
+
+        <div class="form-row">
+            <label for="tel">Telefon</label><br>
+            <input name="tel" id="tel" type="tel" required placeholder="+90...">
+        </div>
+
+        <div class="form-row">
+            <label for="mail">E-posta Adresi</label><br>
+            <input name="mail" id="mail" type="email" required placeholder="nuray@gmail.com">
+        </div>
+
+        <div class="form-row">
+            <label for="message">Mesaj</label><br>
+            <textarea name="message" id="message" ></textarea>
+        </div>
+
+        <div class="form-row">
+            <label for="sehir">Şehir</label><br>
+            <select name="sehir" id="sehir">
+                <option value="istanbul">İstanbul</option>
+                <option value="ankara">Ankara</option>
+            </select>
+        </div>
+
+        <!-- <div>
+            <label for="renk">Sevdiğiniz Renk</label>
+            <input name="renk" id="renk" type="radio"> Kırmızı
+            <input name="renk" id="renk" type="radio"> Mavi
+        </div> -->
+
+        <!-- sadece daireye basınca seçer. çünkü labelin içinde değil -->
+
+        <div class="form-row">
+            <p>Cinsiyetiniz</p>
+            <div class="radio-container">
+            <label for="cinsiyet">
+                <input name="cinsiyet" id="cinsiyet" type="radio"> Kadın
+            </label>
+            <label>
+                <input name="cinsiyet" id="cinsiyet" type="radio"> Erkek
+            </label>
+           
+        </div>
+        </div>
+
+        <div class="form-row">
+            <button type="reset">Sıfırla</button>
+            <button type="submit">Gönder</button>
+        </div>
+
+
+
+    </form>
+    
+</body>
+</html>

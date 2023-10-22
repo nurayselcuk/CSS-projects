@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Open Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+/* navbar */
+.head{
+  position: fixed;
+  width: 100%;
+  
+}
+#navbar {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /*yatayda ortalar*/
+  padding: 0 0.75rem;
+  height: 4rem;
+}
+
+#navbar ul {
+  /* #navbar li yapsak da olur */
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+#navbar a {
+  /* #navbar ul li a{ şeklinde yapmanın farkı var mı ? */
+  padding: 0.5rem;
+}
+
+#navbar a:hover {
+  background-color: #336ea2;
+  border: 1px solid #ffffffab;
+  border-radius: 5px;
+
+  bottom: 2px;
+}
+/* section */
+
+#home {
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#home img {
+  border: 1px solid black;
+  width: 20%;
+  height: auto;
+  border-radius: 100%;
+}
+#home .name h2 {
+  margin: 10px 0;
+}
+
+#home .name p {
+  opacity: 0.5;
+  font-style: italic;
+}
+
+/* article */
+#training {
+  color: #fff;
+  padding: 1rem 0;
+}
+.items {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1rem;
+}
+.item {
+  width: 33%;
+  padding: 0.5rem;
+}
+.item:hover {
+  color: #6faadd;
+}
+
+/* background-attachment özelliği html içindeki img etiketine uygulanamaz mı */
+
+/* section2 */
+#courses{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-top: 0.5rem;
+ 
+}
+
+.course{
+  margin: 1px auto;
+  width: 50%;
+  padding: 1rem;
+  position: relative;
+  border: 1px solid gray;
+  display: flex;
+}
+
+.sale{
+  background-color: #FA031D;
+  padding: 0.3rem;
+  position: absolute;
+  border-radius: 5px;
+  color: #fff;
+  top: 2rem;
+}

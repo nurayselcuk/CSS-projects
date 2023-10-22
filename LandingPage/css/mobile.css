@@ -1,0 +1,23 @@
+#navbar {
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  height: 90px;
+}
+
+#navbar a {
+  padding: 0.3rem;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+
+.item {
+  width: 100%;
+}
